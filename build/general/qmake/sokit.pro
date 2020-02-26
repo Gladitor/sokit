@@ -5,6 +5,7 @@
 TEMPLATE = app
 TARGET = sokit
 
+QT += widgets
 QT += gui network
 CONFIG += debug_and_release build_all thread
 DEFINES += QT_NETWORK_LIB
